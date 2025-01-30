@@ -1,4 +1,8 @@
-Olá! Esse é um repositório simples de geração de recibos e etiquetas para manutenção de computadores em helpdesk.
+### Olá! 
+
+Esse é um repositório simples de geração de recibos e etiquetas para manutenção de computadores em helpdesk.
+
+---
 
 No nosso time de T.I, os usuários trazem seus computadores defeituosos para manutenção, entregamos um recibo com a assinatura de quem vai manutenir o computador e uma etiqueta que vai ser colada no PC.
 
@@ -14,9 +18,9 @@ python chamado.py
 
 acesse: http://127.0.0.1:5000/api/chamados
 
-utilize um HTTP CLient (Bruno, Postman, Insomnia)
+- utilize um HTTP CLient (Bruno, Postman, Insomnia)
 
-POST
+### POST
 ```json
 {
            "nome": "3º Sgt AUDREYSON",
@@ -26,7 +30,9 @@ POST
          }
 ```
 
-GET http://127.0.0.1:5000/api/chamados
+### GET 
+
+http://127.0.0.1:5000/api/chamados
 para listar todos chamados em forma de API (json)
 ```json
 [
@@ -54,5 +60,6 @@ para listar todos chamados em forma de API (json)
 ]
 ```
 
-GET http://127.0.0.1:5000/api/chamados/recibo/{id} para obter o PDF do chamado:
+### PDF
+**GET** http://127.0.0.1:5000/api/chamados/recibo/{id} para obter o PDF do chamado:
 ![alt text](image.png)
